@@ -15,8 +15,7 @@
     --font-serif: "DM Serif Text", serif;
 }
 
-html,
-body {
+html, body {
     width: 100%;
     background-color: black;
     color: white;
