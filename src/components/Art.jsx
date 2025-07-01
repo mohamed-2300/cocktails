@@ -45,7 +45,7 @@ const Art = () => {
 
           <div className="cocktail-img">
             <img
-              src="/images/under-img.jpg"
+              src="/images/underImg.jpg"
               alt="cocktail"
               className="abs-center masked-img size-full object-contain"
             />

@@ -73,7 +73,7 @@ const Hero = () => {
   return (
     <>
       <section id="hero" className="border noisy">
-        <h1 className="title">MOJITO</h1>
+        <h1 className="title">JOSTAIL</h1>
 
         <img
           src="/images/hero-left-leaf.png"
@@ -97,11 +97,9 @@ const Hero = () => {
 
             <div className="view-cocktails">
               <p className="subtitle">
-                Every cocktail on our menu is a blend of premium ingredients,
-                creative flair, and timeless recipes — designed to delight your
-                senses.
+                Every drink on our menu is a blend of fresh ingredients, creative flair, and timeless recipes — crafted to refresh and inspire.
               </p>
-              <a href="#cocktails">View cocktails</a>
+              <a href="#cocktails">View mocktails</a>
             </div>
           </div>
         </div>

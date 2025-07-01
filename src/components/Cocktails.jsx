@@ -36,7 +36,7 @@ const Cocktails = () => {
 
       <div className="list">
         <div className="popular">
-          <h2>Most popular cocktails:</h2>
+          <h2>Most popular mocktails:</h2>
 
           <ul>
             {cocktailLists.map(({ name, country, detail, price }) => (
@@ -47,14 +47,14 @@ const Cocktails = () => {
                     {country} | {detail}
                   </p>
                 </div>
-                <span>{price}</span>
+                <span className="flex-center gap-1"><span>{price}</span> <h3 className="mt-2">MAD</h3></span>
               </li>
             ))}
           </ul>
         </div>
 
         <div className="loved">
-          <h2>Most loved cocktails:</h2>
+          <h2>Most loved mocktails:</h2>
 
           <ul>
             {mockTailLists.map(({ name, country, detail, price }) => (
@@ -65,7 +65,7 @@ const Cocktails = () => {
                     {country} | {detail}
                   </p>
                 </div>
-                <span>{price}</span>
+                <span className="flex-center gap-1"><span>{price}</span> <h3 className="mt-2">MAD</h3></span>
               </li>
             ))}
           </ul>
